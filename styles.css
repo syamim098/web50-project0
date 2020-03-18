@@ -1,0 +1,28 @@
+.music, .link, h1, .titleHeadings, .pictureHeadings, #quote, .LCOlink, .figures, .container {
+  text-align: center; }
+
+footer table {
+  font-style: italic; }
+
+.titleHeadings {
+  font-size: 60px; }
+
+.pictureHeadings {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#quote {
+  font-style: italic; }
+
+a:link {
+  color: blue; }
+
+a:visited {
+  color: darkblue; }
+
+@media (max-width: 700px) {
+  .pictureHeadings {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */

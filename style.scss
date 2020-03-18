@@ -1,0 +1,65 @@
+$aligncen: center;
+
+%alignment-center
+{
+    text-align: $aligncen;
+}
+
+footer
+{
+    table
+    {
+        font-style: italic;
+    }
+}
+
+.music, .link
+{
+    @extend %alignment-center
+}
+
+h1
+{
+    @extend %alignment-center;
+}
+.titleHeadings
+{
+    @extend %alignment-center;
+    font-size: 60px;
+}
+.pictureHeadings
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @extend %alignment-center;
+}
+
+#quote
+{
+    @extend %alignment-center;
+    font-style: italic;
+}
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: darkblue;
+}
+.figures
+{
+    @extend %alignment-center;
+}
+.container
+{
+    @extend %alignment-center;
+}
+@media (max-width: 700px)
+{
+    .pictureHeadings
+    {
+        display: none;
+    }
+}
